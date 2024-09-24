@@ -37,4 +37,5 @@ out/
 .vscode/
 
 ### Application properties ###
-/application.properties
+application.properties
+application-API-KEY.properties
