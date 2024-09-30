@@ -30,16 +30,13 @@ dependencies {
 	implementation 'com.twitter.penguin:korean-text:4.4.4'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-<<<<<<< HEAD
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'io.jsonwebtoken:jjwt-api:0.11.2'
 	implementation 'com.google.code.gson:gson:2.8.0'
-=======
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
->>>>>>> main
     implementation 'edu.stanford.nlp:stanford-corenlp:4.5.5'
     implementation "edu.stanford.nlp:stanford-corenlp:4.5.5:models"
     implementation "edu.stanford.nlp:stanford-corenlp:4.5.5:models-english"

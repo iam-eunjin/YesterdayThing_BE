@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../../out/test/News"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../News">
+		<excludeFolder url="file://$MODULE_DIR$/../../News/.gradle"/>
+		<excludeFolder url="file://$MODULE_DIR$/../../News/build"/>
+	</contentEntry>
+</component>
