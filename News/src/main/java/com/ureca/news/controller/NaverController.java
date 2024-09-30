@@ -21,10 +21,10 @@ import com.google.gson.Gson;
 public class NaverController {
 	@Value("${X-Naver-Client-Id}")
 	private String Id;
-	
+
 	@Value("${X-Naver-Client-Secret}")
 	private String Secret;
-    
+
 	class Information {
 	    public String lastBuildDate;
 	    public int total;
@@ -51,7 +51,7 @@ public class NaverController {
 	                '}';
 	    }
 	}
-	
+
 	@GetMapping("/news")
 	public ResponseEntity<Information> naver() {
 	    String query = "환율";
@@ -66,7 +66,7 @@ public class NaverController {
 	            .encode()
 	            .build()
 	            .toUri();
-	    
+
         RestTemplate restTemplate = new RestTemplate();
 
         RequestEntity<Void> req = RequestEntity

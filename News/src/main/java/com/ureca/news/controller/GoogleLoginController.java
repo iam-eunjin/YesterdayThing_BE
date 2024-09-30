@@ -35,7 +35,7 @@ public class GoogleLoginController {
         String jwtToken = jwtTokenUtil.generateToken(email);
 
         RedirectView redirectView = new RedirectView();
-        redirectView.setUrl("http://localhost:3000/" + jwtToken);
+        redirectView.setUrl("http://localhost:3000/?token=" + jwtToken);
         return redirectView;
     }
 }
